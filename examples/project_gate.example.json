@@ -1,0 +1,39 @@
+{
+  "sheet_size": "A3",
+  "minimum_component_spacing": 20,
+  "workflow": {
+    "sheet_size_confirmed": true,
+    "components_placed": true,
+    "wiring_complete": true,
+    "frames_drawn_after_wiring": true
+  },
+  "bom_refs": ["U1", "R1"],
+  "bom_exempt_refs": [],
+  "pages": [
+    {
+      "page": 1,
+      "sheet_size": "A3",
+      "safe_area": {"x_min": 40, "y_min": 200, "x_max": 1615, "y_max": 1145},
+      "title_block_exclusion": {"x_min": 945, "y_min": 7, "x_max": 1645, "y_max": 190},
+      "regions": {
+        "MCU 示例区": {
+          "x_min": 100,
+          "y_min": 300,
+          "x_max": 500,
+          "y_max": 600,
+          "stroke_color": "#16a34a"
+        }
+      },
+      "components": [
+        {"ref": "U1", "region": "MCU 示例区", "x_min": 150, "y_min": 400, "x_max": 250, "y_max": 450},
+        {"ref": "R1", "region": "MCU 示例区", "x_min": 300, "y_min": 410, "x_max": 330, "y_max": 430}
+      ],
+      "titles": [
+        {"text": "MCU 示例区", "region": "MCU 示例区", "x": 120, "y": 550, "font_size": 24, "width": 150}
+      ],
+      "wires": [
+        {"net": "EXAMPLE_SIGNAL", "cross_region": true, "cross_page": false, "method": "port"}
+      ]
+    }
+  ]
+}

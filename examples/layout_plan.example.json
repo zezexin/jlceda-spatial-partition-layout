@@ -1,0 +1,13 @@
+{
+  "sheet_size": "A3",
+  "sheet_size_confirmed": true,
+  "gap": 50,
+  "blocks": [
+    {"name": "USB-C 与输入保护", "width": 650, "height": 300, "priority": 1},
+    {"name": "充电管理", "width": 650, "height": 300, "priority": 2},
+    {"name": "DC/DC 电源转换", "width": 650, "height": 300, "priority": 3},
+    {"name": "MCU 主控", "width": 650, "height": 300, "priority": 4},
+    {"name": "EPD 显示接口", "width": 650, "height": 300, "priority": 5},
+    {"name": "按键与存储接口", "width": 650, "height": 300, "priority": 6}
+  ]
+}
